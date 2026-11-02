@@ -14,13 +14,11 @@ node_modules/
 # Backtest output artifacts
 results/
 
-.env
 agent/.env
 
 .claude/*
 !.claude/hooks.json
 CLAUDE.md
-.vscode/
 learn-claude-code-main/
 agent/sessions/
 agent/runs/
@@ -191,3 +189,8 @@ agent/tests/artifacts/
 
 # Runtime background command previews and restart outcomes
 /background-tasks/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
